@@ -61,7 +61,7 @@ class Discovery {
     private:
         void callback(const etcd::Response &resp) {
             if (resp.is_ok() == false) {
-                LOG_ERROR("收到一个错误的事件通知: {}", resp.error_message());
+                LOG_ERROR("收到错误的事件通知: {}", resp.error_message());
                 return;
             }
             for (auto const& ev : resp.events()) {
