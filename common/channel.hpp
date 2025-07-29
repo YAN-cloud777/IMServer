@@ -5,7 +5,9 @@
 #include <unordered_map>
 #include <mutex>
 #include "logger.hpp"
-
+namespace hu
+{
+    
 
 //1. 封装单个服务的信道管理类:
 class ServiceChannel {
@@ -147,3 +149,4 @@ class ServiceManager {
         std::unordered_map<std::string, ServiceChannel::ptr> _services;
         //这个主要是获取services -- ServiceChannel对应的ptr即可  ptr = std::shared_ptr<ServiceChannel>;
 };
+}

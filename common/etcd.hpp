@@ -7,7 +7,7 @@
 #include <functional>
 #include "logger.hpp"
 
-namespace bite_im{
+namespace hu{
 //服务注册客户端类
 class Registry {
     public:

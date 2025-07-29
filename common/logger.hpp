@@ -8,7 +8,9 @@
 #include <iostream>
 
 // mode - 运行模式： true-发布模式； false调试模式
-
+namespace hu
+{
+    
 std::shared_ptr<spdlog::logger> g_default_logger;
 void init_logger(bool mode, const std::string &file, int32_t level)
 {
@@ -32,3 +34,4 @@ void init_logger(bool mode, const std::string &file, int32_t level)
 #define LOG_WARN(format, ...) g_default_logger->warn(std::string("[{}:{}] ") + format, __FILE__, __LINE__, ##__VA_ARGS__)
 #define LOG_ERROR(format, ...) g_default_logger->error(std::string("[{}:{}] ") + format, __FILE__, __LINE__, ##__VA_ARGS__)
 #define LOG_FATAL(format, ...) g_default_logger->critical(std::string("[{}:{}] ") + format, __FILE__, __LINE__, ##__VA_ARGS__)
+}
