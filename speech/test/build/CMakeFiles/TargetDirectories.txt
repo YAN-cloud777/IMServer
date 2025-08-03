@@ -1,0 +1,8 @@
+/root/IMSver/speech/test/build/CMakeFiles/speech_server.dir
+/root/IMSver/speech/test/build/CMakeFiles/speech_client.dir
+/root/IMSver/speech/test/build/CMakeFiles/edit_cache.dir
+/root/IMSver/speech/test/build/CMakeFiles/rebuild_cache.dir
+/root/IMSver/speech/test/build/CMakeFiles/list_install_components.dir
+/root/IMSver/speech/test/build/CMakeFiles/install.dir
+/root/IMSver/speech/test/build/CMakeFiles/install/local.dir
+/root/IMSver/speech/test/build/CMakeFiles/install/strip.dir

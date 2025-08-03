@@ -1,0 +1,7 @@
+/root/IMSver/file/test/build/CMakeFiles/file_server.dir
+/root/IMSver/file/test/build/CMakeFiles/edit_cache.dir
+/root/IMSver/file/test/build/CMakeFiles/rebuild_cache.dir
+/root/IMSver/file/test/build/CMakeFiles/list_install_components.dir
+/root/IMSver/file/test/build/CMakeFiles/install.dir
+/root/IMSver/file/test/build/CMakeFiles/install/local.dir
+/root/IMSver/file/test/build/CMakeFiles/install/strip.dir
